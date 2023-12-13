@@ -5,7 +5,7 @@ import history from '@/utils/history';
 const App = () => {
   return (
     <>
-      <Router history={history}>
+      <Router history={history as any}>
         <RouteRender />
         <TabBarView />
       </Router>
